@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background-color: #1DB954;
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column:hover {
+    background-color: #161f19;
+}
+
+body {
+    background-color: black;
+}
