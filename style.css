@@ -19,6 +19,9 @@
     clear: both;
 }
 
+div.optionsContainer {
+}
+
 .column:hover {
     background-color: #161f19;
 }
@@ -51,6 +54,4 @@ select {
 }
 
 .track1, .track2, .track3, .track4 {
-    float: left;
-    padding: 0px 20px;
 }
