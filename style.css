@@ -7,7 +7,7 @@
     width: 50%;
     padding: 10px;
     text-align: center;
-    background-color: #1DB954;
+    background-color: #f52426;
     color: white;
     font-size: 30px;
     font-family: Verdana, Geneva, sans-serif;
@@ -19,10 +19,11 @@
     clear: both;
 }
 
-div.optionsContainer {
+.optionsContainer {
     width: 100%;
     border-bottom: white;
     position: fixed;
+    margin:0 auto;
 }
 
 .column:hover {
@@ -39,7 +40,7 @@ body {
 }
 
 button {
-    background-color: #1DB954; /* Green */
+    background-color: #f52426; /* Green */
     border: none;
     color: white;
     padding: 10px 20px;
