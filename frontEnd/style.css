@@ -22,7 +22,7 @@
 .optionsContainer {
     width: 100%;
     border-bottom: white;
-    position: fixed;
+    position: static;
     margin:0 auto;
 }
 
@@ -60,4 +60,16 @@ select {
 .track1, .track2, .track3, .track4 {
     padding: 0px 20px;
     float: left;
+}
+
+.resultsContainer {
+    position:absolute;
+    top:35%;
+    width: 80%;
+    height: 50%;
+}
+
+li, ol {
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
 }

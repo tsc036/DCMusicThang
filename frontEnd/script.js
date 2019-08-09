@@ -1,6 +1,16 @@
 $(document).ready(function() {
-    $(".inner").append("<p>Test</p>");
-    document.getElementById("demo").innerHTML = "My First JavaScript";
+    $(".resultsContainer").append("<ol>Results</ol>");
+
+    $("button").click(function() { // Button calls results function
+        $("li").remove();
+        results();
+    });
 });
+
+function results() {
+    for (let i = 1; i <= $(".quantity").val(); i++) {
+        $("ol").append("<li></li>") // We will append artist/track name here
+    }
+}
 
 
