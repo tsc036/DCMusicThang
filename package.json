@@ -1,0 +1,7 @@
+{
+  "name": "DCMusicThang",
+  "version": "1.0.0",
+  "dependencies": {
+    "mongodb": "^3.3.0-beta2"
+  }
+}
