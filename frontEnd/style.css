@@ -51,6 +51,7 @@ button {
     font-family: Verdana, Geneva, sans-serif;
     margin-top: 26px;
     border-radius: 5px;
+    outline: 0;
 }
 
 select {
