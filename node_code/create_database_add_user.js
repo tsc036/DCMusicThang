@@ -1,8 +1,8 @@
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 const dbName="dc_music_thing";
-const user = encodeURIComponent('taygan');
-const password = encodeURIComponent('774134t$Caldwell');
+const user = encodeURIComponent('username');
+const password = encodeURIComponent('password');
 const authMechanism = 'DEFAULT';
 const bcrypt=require('bcrypt');
 const salt_rounds=12;
